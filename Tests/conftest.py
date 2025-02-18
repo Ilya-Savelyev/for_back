@@ -13,7 +13,7 @@ def base_url():
 @pytest.fixture
 def post_request(base_url):
     with allure.step('Отправить запрос'):
-        response = request.post_request(base_url + '/posts', headers = headers, json=payload)
+        response = request.post_request(base_url + '/posts')
         assert response.status_code == 201
         return response.status_code
 
