@@ -1,8 +1,3 @@
-# data = {
-#     "table_id": "EDW_GP_CORE_1_ADS_DIM_TST_1",
-#     "component_name": "CDWH_GP",
-#     "is_test": "True"
-# }
 
 payload = 'author=1&comment_status=open&content=test%20for%20test&date=2025-02-18T13%3A11%3A25&date_gmt=2025-02-18T13%3A11%3A25&format=standard&ping_status=open&slug=test123321&status=publish&sticky=false&title=test%20for%20test'
 headers = {
